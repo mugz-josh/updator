@@ -12,8 +12,8 @@ const NewsAppHome = () => {
       <header className="app-header">
         <div className="header-content">
           <div className="header-brand">
-            <h1 className="app-title">The Global Chronicle</h1>
-            <p className="app-subtitle">Est. 1846 • Veritas in Omnia</p>
+            <h1 className="app-title">Joshua News app.</h1>
+            <p className="app-subtitle">Est. 2024 • Kampala in Uganda</p>
           </div>
           <nav className="main-nav">
             <a href="#" className="nav-link active">Home</a>
