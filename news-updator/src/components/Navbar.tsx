@@ -23,7 +23,7 @@ const Navbar = ({ isSignedIn, onSignOut }: NavbarProps) => {
     <nav className="navbar">
       <div className="container">
         <div className="navbar-brand">
-          <Link to="/" className="logo">ProfessionalSite</Link>L
+          <Link to="/" className="logo">ProfessionalSite</Link>
           <button 
             className="mobile-menu-button" 
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
