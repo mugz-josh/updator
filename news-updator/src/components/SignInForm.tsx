@@ -168,7 +168,7 @@ const SignInForm: React.FC<Props> = ({ onSignIn, isAuthenticated }) => {
           {/* ... (keep your existing SVG) */}
         </ProfileIcon>
         <Title><GoldenText>Login</GoldenText> Form</Title>
-        <Subtitle>Sign in to access your <GoldenText></GoldenText>yourdashboard</Subtitle>
+        <Subtitle>Sign in to access your <GoldenText></GoldenText>dashboard</Subtitle>
         
         <form onSubmit={handleSubmit} style={{ width: '100%' }}>
           {error && <ErrorMessage>{error}</ErrorMessage>}
