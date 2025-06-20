@@ -68,7 +68,7 @@ const Blog: React.FC<BlogProps> = ({ isSignedIn, onSignOut }) => {
     {
       id: '4',
       title: 'Sustainable Business Practices',
-      author: 'Maria Garcia',
+      author: 'Joeline Garcia',
       authorTitle: 'Sustainability Expert',
       date: 'May 15, 2025',
       excerpt: 'Exploring how environmentally conscious operations can drive profitability while meeting consumer demand for corporate responsibility and green initiatives.',
