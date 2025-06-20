@@ -152,7 +152,7 @@ const SignInForm: React.FC<Props> = ({ onSignIn, isAuthenticated }) => {
     try {
       const success = await onSignIn(formData.email, formData.password);
       if (!success) {
-        setError('Invalid email or password');
+        setError('Invalid email or password used');
       }
     } catch (err) {
       setError('Login failed. Please try again.');
@@ -167,8 +167,8 @@ const SignInForm: React.FC<Props> = ({ onSignIn, isAuthenticated }) => {
         <ProfileIcon>
           {/* ... (keep your existing SVG) */}
         </ProfileIcon>
-        <Title><GoldenText>Login</GoldenText> Portal</Title>
-        <Subtitle>Sign in to access your <GoldenText>personalized</GoldenText> news dashboard</Subtitle>
+        <Title><GoldenText>Login</GoldenText> Form</Title>
+        <Subtitle>Sign in to access your <GoldenText></GoldenText>yourdashboard</Subtitle>
         
         <form onSubmit={handleSubmit} style={{ width: '100%' }}>
           {error && <ErrorMessage>{error}</ErrorMessage>}
@@ -198,7 +198,7 @@ const SignInForm: React.FC<Props> = ({ onSignIn, isAuthenticated }) => {
         </form>
         
         <FooterText>
-          Don't have an account? <a href="#"><GoldenText>Request access</GoldenText></a>
+          Don't have an account? <a href="#"><GoldenText>SignUp</GoldenText></a>
         </FooterText>
       </LoginBox>
     </OpenLoginContainer>
