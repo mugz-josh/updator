@@ -54,7 +54,7 @@ const Navbar = ({ isSignedIn, onSignOut }: NavbarProps) => {
                 <span>Signed In</span>
               )
             ) : (
-              <Link to="/signin" className="signin-btn"></Link>
+              <Link to="/signin" className="signin-btn">sign in</Link>
             )}
           </span>
         </div>

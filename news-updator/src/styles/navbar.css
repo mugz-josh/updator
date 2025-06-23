@@ -1,16 +1,31 @@
 .navbar {
-  background-color: var(--white);
+   background-color: var(--white);
   box-shadow: var(--shadow);
   position: sticky;
   top: 0;
   z-index: 1000;
-  padding: 1rem 0;
+  padding: 1rem 0; 
 }
-
+a.signin-btn{
+background-color:rgb(255, 44, 44);
+color:white;
+border:none;
+border-radius: 4px;
+padding: 10px ;
+cursor: pointer;
+/* transition: background-color 0.3s ease; */
+padding-left: 20px;
+padding-right: 20px;
+font-weight: 500;
+}
+.signout-btn:hover {
+  background-color: rgb(220, 20, 20);
+}
 .navbar-brand {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 0 1rem;
 }
 
 .logo {
